@@ -1,0 +1,39 @@
+.menu {
+    padding-top: 1rem;
+}
+
+.menu__lista {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.menu__item {
+    padding: 1rem .3rem 0.2rem .3rem;
+    margin-right: .3rem;
+    color: #f9f9f9;
+    font-size: 1.25rem;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.ativo {
+    border-bottom: 2px solid #f9f9f9 ;
+    border-radius: 5px;
+}
+
+.menu__link:hover {
+    color: orange;
+    border-bottom: 2px solid orange ;
+    border-radius: 5px;
+    padding: 1rem .3rem 0.2rem .3rem;
+}
+
+.ativo:hover {
+    border:none;
+}
+

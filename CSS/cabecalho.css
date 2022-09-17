@@ -1,0 +1,15 @@
+.cabecalho {
+    align-items: center;
+    background: #228B22;
+    flex-direction: column;
+}
+
+.cabecalho__logo {
+    width:40% ;
+    max-width: 100px;
+}
+
+.container {
+    display: flex;
+    padding: 1.25rem;
+}

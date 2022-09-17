@@ -1,0 +1,29 @@
+.home {
+    background-image: url(../imagens/homepag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vw;
+    display: flex;    
+}
+.home__imagem {
+    display: none;
+}
+
+.home__texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10%;
+    color: #F9f9f9;
+}
+
+.home__titulo {
+    font-size: 3rem;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+.home__lema {
+    font-size: 2rem;
+    font-style: italic;
+}

@@ -1,0 +1,49 @@
+.pastores{
+    display: block;
+    background: #f9f9f9;
+    border-bottom:1px solid #000000;
+}
+
+.pastores__titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.pastores__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pastores__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #00000020;
+    margin-bottom: 1rem;
+    transition: 700ms;
+    width: 60%;
+}
+
+.pastores__imagem {
+    width: 90%;
+    border: 1px solid #000000;
+    margin-bottom: 1rem;   
+}
+
+.pastores__nome {
+    font-size: 1.25rem;
+    padding: 1rem;
+    transition: 700ms;
+}
+
+.pastores__item:hover {
+    width: 65%;
+}
+
+.pastores__item:hover .pastores__nome {
+    font-size: 1.35rem;
+}
