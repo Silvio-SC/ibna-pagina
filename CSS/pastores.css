@@ -40,10 +40,58 @@
     transition: 700ms;
 }
 
-.pastores__item:hover {
-    width: 65%;
+@media screen and (min-width: 0px ){
+    .pastores__lista {
+        flex-direction: column;
+    }       
+    .pastores__item {
+        width: 60%;
+    }
+
+
+    .pastores__item:hover {
+        width: 65%;
+    }
+    
+    .pastores__item:hover .pastores__nome {
+        font-size: 1.35rem;
+    }
 }
 
-.pastores__item:hover .pastores__nome {
-    font-size: 1.35rem;
+@media screen and (min-width: 768px ){
+    .pastores__lista {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pastores__item {
+        width: 22%;
+    }
+
+
+    .pastores__item:hover {
+        width: 25%;
+    }
+    
+    .pastores__item:hover .pastores__nome {
+        font-size: 1.35rem;
+    }
+}
+
+@media screen and (min-width: 1024px ){
+    .pastores__lista {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pastores__item {
+        width: 20%;
+    }
+
+
+    .pastores__item:hover {
+        width: 25%;
+    }
+    
+    .pastores__item:hover .pastores__nome {
+        font-size: 1.35rem;
+    }
 }
