@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="CSS/reset.css">
-    <link rel="stylesheet" type="text/css" href="CSS/cabecalho.css">
-    <link rel="stylesheet" type="text/css" href="CSS/menu.css">
-    <link rel="stylesheet" type="text/css" href="CSS/home.css">
-    <link rel="stylesheet" type="text/css" href="CSS/atividade.css">
-    <link rel="stylesheet" type="text/css" href="CSS/pastores.css">
-    <link rel="stylesheet" type="text/css" href="CSS/endereco.css">
-    <link rel="stylesheet" type="text/css" href="CSS/rodape.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/home.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/atividade.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/pastores.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/endereco.css">
 
     <title>Igreja Batista Nova Aurora</title>
 </head>
 <body>
     <header class="cabecalho container">
-        <img src="imagens/logo2.png" alt="logo da IBNA" class="cabecalho__logo">
+        <img src="./src/assets/logo2.png" alt="logo da IBNA" class="cabecalho__logo">
         <nav class="menu">
             <ul class="menu__lista">
-                <li class="menu__item ativo"><a href="index.html" class="menu__link ">Home</a></li>
+                <li class="menu__item "><a href="index.html" class="menu__link ativo">Home</a></li>
                 <li class="menu__item"><a href="nossa-historia.html" class="menu__link">Nossa História</a></li>
                 <li class="menu__item"><a href="o-que-cremos.html" class="menu__link">O que cremos</a></li>
                 <li class="menu__item"><a href="contato.html" class="menu__link">Contato</a></li>
@@ -29,7 +27,7 @@
     </header>
     <main>
         <section class="home container">
-            <img src="imagens/homepag.jpg" alt="Imagem da Igreja" class="home__imagem">
+            <img src="src/assets/banner.png" alt="Imagem da Igreja" class="home__imagem">
             <div class="home__texto">
                 <h2 class="home__titulo">Igreja Batista Nova Aurora</h2>
                 <p class="home__lema">"Vivendo e compartilhando o evangelho da cruz!"</p>
@@ -94,19 +92,19 @@
             <ul class="pastores__lista">
                 <li class="pastores__item">
                     <p class="pastores__nome">Pr. Genilson Zamba</p>
-                    <img src="imagens/pastores/prgenilson.jpg" alt="foto do pastor Genilson" class="pastores__imagem">
+                    <img src="./src/assets/pastores/prgenilson.jpg" alt="foto do pastor Genilson" class="pastores__imagem">
                 </li>
                 <li class="pastores__item">
                     <p class="pastores__nome">Pr. Gílson Zamba</p>
-                    <img src="imagens/pastores/prgilson.jpg" alt="foto do pastor Gílson" class="pastores__imagem">
+                    <img src="./src/assets/pastores/prgilson.jpg" alt="foto do pastor Gílson" class="pastores__imagem">
                 </li>
                 <li class="pastores__item">
                     <p class="pastores__nome">Pr. Eli Marau</p>
-                    <img src="imagens/pastores/preli2.jpg" alt="foto do pastor Eli" class="pastores__imagem">
+                    <img src="./src/assets/pastores/preli2.jpg" alt="foto do pastor Eli" class="pastores__imagem">
                 </li>
                 <li class="pastores__item">
                     <p class="pastores__nome">Pr. Márcio Dulce</p>
-                    <img src="imagens/pastores/prmarcio.jpg" alt="foto do pastor Márcio" class="pastores__imagem">
+                    <img src="./src/assets/pastores/prmarcio.jpg" alt="foto do pastor Márcio" class="pastores__imagem">
                 </li>
             </ul>
 
@@ -120,7 +118,7 @@
         </section>
     </main>
     <footer class="rodape">
-        <img src="imagens/logo-principal.png" alt="logo" class="rodape__imagem">
+        <img src="./src/assets/logo-principal.png" alt="logo" class="rodape__imagem">
         <h2 class="rodape__titulo">Igreja Batista Nova Aurora</h2>
         <p></p>
     </footer>

@@ -1,20 +1,27 @@
 .atividade {
-display: block;
-background: #FFF5EE;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap: 1rem;
 }
 
 .atividade__titulo {
     text-align: center;
     padding: 1rem 0;
+    grid-column: 1/4;
+    grid-row: 1/1;
 }
 
 .atividade__dia {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     flex-wrap: wrap;
     padding: 1rem;
-    border-bottom: 2px solid gray;
+    border: 2px solid #00000020;  
+}
+
+.atividade__dia:hover{
+    border: 2px solid #5f085f50;  
 }
 
 .atividade__dia__titulo {
@@ -25,6 +32,39 @@ background: #FFF5EE;
 .atividade__dia__lista {
     padding: 0 0 1rem 1rem;
 }
+
+.atividade__dia:nth-child(2){
+    grid-column: 1/1;
+    grid-row: 2/4;
+}
+.atividade__dia:nth-child(3){
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.atividade__dia:nth-child(4){
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+.atividade__dia:nth-child(5){
+    grid-column: 3/4;
+    grid-row: 2/2;
+}
+.atividade__dia:nth-child(6){
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.atividade__dia:nth-child(7){
+    grid-column: 1/1;
+    grid-row: 4/5;
+}
+.atividade__dia:nth-child(8){
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+
+
+
 
 @media screen and (min-width: 0px ){
     .atividade__titulo{

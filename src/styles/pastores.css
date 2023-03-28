@@ -1,7 +1,6 @@
 .pastores{
     display: block;
-    background: #f9f9f9;
-    border-bottom:1px solid #000000;
+    border-bottom:1px solid #00000060;
 }
 
 .pastores__titulo {
@@ -20,18 +19,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid #000000;
-    border-radius: 5px;
+    border: 2px solid #00000020;
+    border-radius: 8px;
     box-shadow: 10px 10px 10px #00000020;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     transition: 700ms;
-    width: 60%;
 }
 
 .pastores__imagem {
-    width: 90%;
-    border: 1px solid #000000;
-    margin-bottom: 1rem;   
+    width: 80%;
+    /* border: 1px solid #00000020; */
+    margin-bottom: 2rem; 
+    border-radius: 8px;  
 }
 
 .pastores__nome {
@@ -48,14 +47,10 @@
         width: 60%;
     }
 
-
     .pastores__item:hover {
-        width: 65%;
+        width: 62%;
     }
     
-    .pastores__item:hover .pastores__nome {
-        font-size: 1.35rem;
-    }
 }
 
 @media screen and (min-width: 768px ){
@@ -71,10 +66,6 @@
     .pastores__item:hover {
         width: 25%;
     }
-    
-    .pastores__item:hover .pastores__nome {
-        font-size: 1.35rem;
-    }
 }
 
 @media screen and (min-width: 1024px ){
@@ -88,10 +79,9 @@
 
 
     .pastores__item:hover {
-        width: 25%;
+        width: 20%;
+        border: 2px solid #00000060;
     }
     
-    .pastores__item:hover .pastores__nome {
-        font-size: 1.35rem;
-    }
+
 }

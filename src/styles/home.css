@@ -1,7 +1,7 @@
 .home {
-    background-image: url(../imagens/homepag.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
+
     display: flex;    
 }
 .home__imagem {
@@ -9,7 +9,7 @@
 }
 
 .home__texto {
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
@@ -33,9 +33,8 @@
     .home__lema {
         font-size: 2rem;
     }
-
     .home{
-
+        background-image: url(../assets/bannerPequeno.png);
         height: 85vw;
     }
 }
@@ -48,7 +47,7 @@
         font-size: 2.5rem;
     }
     .home{
-
+        background-image: url(../assets/banner.png);
         height: 100vh;
     }
 }
@@ -61,7 +60,7 @@
         font-size: 3rem;
     }
     .home{
-
+        background-image: url(../assets/banner.png);
         height: 100vh;
     }
 }
